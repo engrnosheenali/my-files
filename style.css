@@ -1,135 +1,62 @@
-.cross{
-   margin-left: 390px;
-   margin-top: 20px;
-}
-
-.img-fluid{
-    height: 697px;
+.container {
+    height: auto;
+   }
+   .row {
+    height: 570px;
+   }
+   .left-box {
+    background-image: url('images/road.jpg');
+    background-size: cover;
+    background-position: center;
+   }
+   .right-box {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin-left: -11.5px;
-    border: 1px solid rgb(243, 243, 245);
-    border-radius: 15px;
-
-}
-.form{
-    margin-right: 99px;
-}
-.container-fluid{
-    width: 900px;
-    height: 700px;
-    border:  2px solid rgb(238, 235, 235);
-    border-radius: 15px;
-}
-.login {
-    font-weight: bolder;
-    font-size: 29px;
-    margin-bottom: 60px;
-    margin-top: 20px;
-  }
-  .form-label{
-    font-size: medium;
-    font-weight: bold;
-  }
-  
-  .form {
-    margin-bottom: 25px;
     position: relative;
-  }
-  .form i{
-    position: absolute;
-    top: 59%;
-    left: 10px;
-  }
-  .side-t{
-    margin-left: 276px;
-  }
-
-.button{
-  
-    width: 96.5%;
-    height: 45px;
-    margin-top: 15px;
+   }
+   .right-side img {
+    height: 120px;
+    width: 250px;
+    margin-left: 70px;
+   }
+   h6 {
+    text-align: center;
+    border-bottom: 0.2px solid rgba(0, 0, 0, 0.524);
+    width: 180px;
+    /* margin: auto !important; */
+    font-size: 15px;
     font-weight: bold;
-    font-size: medium;
-  
-}
-h6{
-  margin-left: 90px;
-  margin-top:35px; 
-}
-.p{
-  font-size: 20px;
-  margin-top: 10px;
-  margin-bottom: 19px;
-  margin-left: 30px ;
-  text-align: center;
-}
-.social-login {
-  display: flex;
-  justify-content: space-between;
-  /* margin: 10px 20px; */
-  /* border-radius: 52px; */
-}
-.social-login img{
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-}
-.social-login a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 39px;
-  padding: 10px  49px;
-  border: 1px solid #ccc8c8;
-  border-radius: 5px;
-  text-decoration: none;
-
-  
-}
-.facebook{
-  margin-right: 55px;
-  margin-left: -3px;
-}
-.google{
-  margin-right: 15px;
-  margin-left: -60px;
-}
-
-.social-login img {
-  margin-right: 5px;
-}
-
-.image {
-margin-bottom: 0; 
-}
-
-.row {
-margin-bottom: 0; 
-}
-.form-group{
-font-weight: bold;
-}
-
-.line-container {
-display: flex;
-align-items: center;
-justify-content: center;
-margin-top: 35px;
-}
-.line {
-flex: 1;
-border-bottom: 1px solid black;
-margin: 0 20px;
-}
-
-.line-text {
-white-space: nowrap;
-}
-
-
-body{
-    margin-top: 80px;
-    box-shadow: 2px;
-   
-}
+    letter-spacing: 8px;
+    padding-top: 50px;
+   }
+   h5 {
+    padding-top: 5px;
+    color: rgba(0, 0, 0, 0.651);
+    font-size: 15px;
+    text-align: center;
+   }
+   h1 {
+    color: #1472d0;
+    font-size: 44px;
+    padding-top: 20px;
+   }
+   h6 {
+    margin: auto;
+   }
+   .icons {
+    text-align: center;
+    padding: 2px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 5px 12px;
+    background-color: rgba(255, 255, 255, 0.864);
+   }
+   .icons h4 {
+    font-size: large;
+    font-weight: 700;
+    color: #1472d0;
+   }
+   .icons {
+    position: absolute;
+    bottom: 80%;
+    right: 0;
+   }
